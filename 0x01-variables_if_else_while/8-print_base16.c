@@ -10,21 +10,16 @@
 
 int main(void)
 {
-	char i = '0';
+	char i, j;
 
-	while (i <= '9')
+	for (i = 0; i < 10; i++)
 	{
-		putchar(i);
-		i++;
+		putchar (i + '0');
 	}
-
-	char j = 'a';
-
-	while (j <= 'f')
+	for (j = 'a'; j <= 'f'; j++)
 	{
-		putchar(j);
-		j++;
-	}
+		putchar (j);
+	}								}
 
 	putchar('\n');
 	return (0);

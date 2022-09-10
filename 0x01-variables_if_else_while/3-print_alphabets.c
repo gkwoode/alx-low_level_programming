@@ -7,16 +7,20 @@
 
 int main(void)
 {
-	char c = 'a';
+	char alpha = 'a';
 
-	while (c <= 'z')
+	while (alpha <= 'z')
 	{
-		if (c != 'e' && c != 'q')
-		{
-			putchar(c);
-		}
-		c++;
+		putchar(alpha);
+		alpha++;
 	}
+
+	alpha = 'A';
+
+	while (alpha <= 'Z')
+	{
+		putchar(alpha);
+		alpha++;
 
 	putchar('\n');
 	return (0);
