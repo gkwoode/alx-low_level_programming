@@ -16,7 +16,7 @@ void print_square(int n)
 		while (a < n)
 		{
 			_putchar('#');
-			ii++;
+			a++;
 		}
 		_putchar('\n');
 		i++;
